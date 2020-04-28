@@ -9,6 +9,7 @@ body {
     background-color: rgb(71, 71, 211);
     width: 100%;
     height: 50px;
+    max-height:500px;
   
 }
 .col{
@@ -130,4 +131,58 @@ body {
     display: block;
   }
 
+.intro{
+    font-family: 'Times New Roman', Times, serif;
+}
 
+#rizwan{
+    background-color: rgb(41, 41, 196);
+    width: 100%;
+    height: 250px;
+    
+}
+.colr{
+    background-color: rgb(41, 41, 196);}
+#a{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    color: white;
+    width: 40%;
+    
+    padding-top: 50px;
+    padding-left: 60%;
+}
+#b{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 30%;
+    padding-top: 50px;
+    padding-left: 50%;
+}
+
+#c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 25%;
+    padding-top: 50px;
+    padding-left: 50%;
+}
+
+#d{
+    display: flex;
+    flex-wrap:wrap ;
+    align-items: center;
+    color: white;
+    width: 25%;
+    justify-content: center;
+    padding-top: 50px;
+    padding-left: 50%;
+}
